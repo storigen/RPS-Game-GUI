@@ -38,9 +38,10 @@ class RpsGame:
         
 
     def botchoice(self):
-        if (randint(1, 3)) == 1:
+        botchoice = (randint(1, 3)) 
+        if botchoice == 1:
             self.bot = 'rock'
-        elif (randint(1, 3)) == 2:
+        elif botchoice == 2:
             self.bot = 'paper'
         else:
             self.bot = 'scissors'
